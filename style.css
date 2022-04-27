@@ -19,7 +19,6 @@ body {
 
 .header {
   display: flex;
-  align-items: baseline;
   padding: 2rem;
   gap: 1rem;
   
