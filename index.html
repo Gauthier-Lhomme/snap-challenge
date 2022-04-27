@@ -11,114 +11,24 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css">
     <title>Welcome to Snap !</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
-
-      *{
-        margin: 0;
-        padding: 0;
-      }
-
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-
-      ul{
-        list-style: none;
-      }
-
-      nav>ul>li{
-        display: inline-block;
-        position: relative;
-      }
-
-      nav>ul>li>ul{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        display: none;
-      }
-
-      nav >ul>li:hover>ul{
-        display: block;
-      }
+ 
     </style>
   </head>
   <body>
-    <header>
-      <img src="./images/logo.svg" alt="" />
-<nav>
-  <ul>
-    <li>
-      <a href="#">Features</a>
-      <ul>
-        <li>Todo List</li>
-        <li>Calendar</li>
-        <li>Reminders</li>
-        <li>Planning</li>
-      </ul>
-    </li>
-    <li>
-      <a href="#">Features</a>
-      <ul>
-        <li>History</li>
-        <li>Our Team</li>
-        <li>Blog</li>
-        <li></li>
-      </ul>
-    </li>
-    <li><a href="#">Careers</a></li>
-    <li><a href="#">About</a></li>
-  </ul>
-</nav>
-    </header>
-    <main>
-      <div>
-        <h1>Make remote work</h1>
-        <h2>
-          Get your team in sync, no matter your location. Streamline processes,
-          create team rituals, and watch productivity soar.
-        </h2>
-        <button>Learn more</button>
-        <ul>
-          <li>
-            <img src="./images/client-databiz.svg" alt="logo of databiz" />
-          </li>
-          <li>
-            <img
-              src="./images/client-audiophile.svg"
-              alt="logo of audio phile"
-            />
-          </li>
-          <li>
-            <img src="./images/client-meet.svg" alt="logo of meet" />
-          </li>
-          <li>
-            <img src="./images/client-maker.svg" alt="logo of maker" />
-          </li>
-        </ul>
+    <div class="header">
+      <div class="dropdown">
+        <button class="link">Information</button>
+        <div class="dropdown-menu">
+          Dropdown Content
+        </div>
       </div>
-      <div>
-        <img src="./images/image-hero-desktop.png" alt="user with computer" />
-      </div>
-    </main>
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Lhomme Gauthier</a>.
-      </div>
-    </footer>
-    <script>
-
-    </script>
+      <a href="" class="link">Pricing</a>
+      <button class="link">Login</button>
+    </div>  
   </body>
 </html>
