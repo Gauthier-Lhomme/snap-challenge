@@ -4,31 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;1,100;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
     <title>Welcome to Snap !</title>
+  <body>    
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
- 
-    </style>
-  </head>
-  <body>
     <div class="header">
-      <div class="dropdown">
-        <button class="link">Information</button>
-        <div class="dropdown-menu">
-          Dropdown Content
-        </div>
+      <div><img class="logo"src="./images/logo.svg" alt=""></div>
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>Features</button>
+          <div class="dropdown-menu">
+            <a href="">TodoList</a>
+            <a href="">Calendar</a>
+            <a href="">Reminders</a>
+            <a href="">Planning</a>
+          </div>
       </div>
-      <a href="" class="link">Pricing</a>
-      <button class="link">Login</button>
-    </div>  
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>Compagny</button>
+          <div class="dropdown-menu">
+            <a href="">History</a>
+            <a href="">Our Team</a>
+            <a href="">Blog</a>
+          </div>
+      </div>
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>Careers</button>
+      </div>
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>About</button>
+      </div>
+      
+      <div class="nav-user">
+        <a class="link" href="">Login</a>
+        <a class="link" href="">Register</a>
+      </div>
+    </div>
   </body>
 </html>
