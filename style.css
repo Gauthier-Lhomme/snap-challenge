@@ -105,3 +105,11 @@ padding-right: 2.5vh ;
   border: solid 2px black;
   color: black;
 }
+
+.icon-button{
+  display: flex;
+}
+
+.icon{
+  padding-left: 1vh;
+}
