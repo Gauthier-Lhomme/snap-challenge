@@ -20,8 +20,7 @@ body {
 .header {
   display: flex;
   padding: 2rem;
-  gap: 1rem;
-  
+  gap: 1rem;  
 }
 
 .link {
@@ -32,8 +31,8 @@ body {
   font-family: inherit;
   font-size: inherit;
   cursor: pointer;
-  padding: 0;
   padding-left: 3vh;
+  padding-top: 2vh;
 }
 
 .dropdown.active > .link,
@@ -90,7 +89,19 @@ a{
 }
 
 .compagny-table{
-width: 6vw;
 padding-left: 3vh;
+padding-right: 2.5vh ;
 }
 
+.register{
+  border: solid 2px hsl(0, 0%, 41%);
+  padding: 2vh;
+  margin-left: 9vh;
+  border-radius: 20%;
+  color: hsl(0, 0%, 41%);
+}
+
+.register:hover{
+  border: solid 2px black;
+  color: black;
+}
