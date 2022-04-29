@@ -41,9 +41,12 @@ body {
   color: black;
 }
 
+.dropdown.active .icon{
+  content: url("./images/icon-arrow-up.svg");
+  }
+
 .dropdown {
   position: relative;
-
 }
 
 .dropdown-menu {
@@ -116,6 +119,8 @@ padding-right: 2.5vh ;
 .icon{
   padding-left: 1vh;
 }
+
+
 
 main{
   display: flex;
