@@ -16,6 +16,10 @@
   color: hsl(228, 45%, 44%);
 }
 
+.burger-menu{
+  display: none;
+}
+
 body {
   margin: 0;
 }
@@ -178,11 +182,13 @@ h1{
 @media only screen and (max-width: 375px) {
   * {
     text-decoration: none;
-    color: black;
+    color: hsl(0, 0%, 41%);    
     background-color: hsl(0, 0%, 98%);
     font-family: "Epilogue", sans-serif;
     margin: 0;
     padding: 0;
+    list-style: none;
+    font-weight: 500;
   }
 
 .header{display: none;}
@@ -193,6 +199,8 @@ h1{
     background: #333;
     height: 100vh;
     width: 100%;
+    position: absolute;
+    z-index: 1;
     
 }
 
@@ -329,20 +337,38 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     visibility: visible;
 }
 
-.toggler:checked ~ .menu > div > ul > li > a:hover{
-    color: orange;
+.features{
+  padding-left : 2vh
 }
 
 .features-drop{
   display: none;
 }
 
+.features-drop > li {
+  padding-top: 3vh;
+  padding-left: 4vh;
+}
+
+
 .features-drop.active{
   display: block;
+  ;
+}
+
+
+.compagny{
+padding-top: 3vh;
+padding-left: 2vh;
 }
 
 .compagny-drop{
   display: none;
+}
+
+.compagny-drop >li{
+  padding-top: 3vh;
+  padding-left: 4vh;
 }
 
 .compagny-drop.active{
@@ -353,4 +379,52 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   padding-left: 3px;
 }
 
+.item-nav{
+  margin-top: 2vh;
+}
+
+.info-nav{
+  padding-top: 3vh;
+  padding-left: 2vh;
+}
+
+.about{padding-top: 3vh;}
+
+.user-space{
+  padding-top: 5vh;
+  align-content: center;
+  
+}
+
+.li-button{
+  padding-top: 4vh;
+}
+
+.login{
+  padding-left: 71px;
+}
+
+.register-button{
+  border: 1px solid black;
+  padding-left: 54px;
+  padding-right: 54px;
+  margin-left: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+border-radius: 10px;
+}
+
+.icon-feature.active{
+  content: url("./images/icon-arrow-up.svg");
+}
+
+.icon-compagny.active{
+  content: url("./images/icon-arrow-up.svg");
+}
+
+
+main{
+  position: absolute;
+  z-index: -1;
+}
 }
