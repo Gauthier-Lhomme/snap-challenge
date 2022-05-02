@@ -300,7 +300,9 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 /* IF THE TOGGLER IS CHECKED, THEN INCREASE THE WIDTH OF THE MENU TO 30% , CREATING A SMOOTH EFFECT :  */
 
 .toggler:checked ~ .menu{
-    width: 60%;
+    width: 100%;
+    background: linear-gradient(to left,
+    hsl(0, 0%, 98%) 57%, rgba(17, 3, 3, 0.61) 50%);
 }
 
 
@@ -339,7 +341,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 }
 
 .features{
-  padding-left : 2vh
+  padding-left : 2vh;
 }
 
 .features-drop{
@@ -357,6 +359,8 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   ;
 }
 
+.menu>div>ul{
+margin-left: 21.1vh;}
 
 .compagny{
 padding-top: 3vh;
