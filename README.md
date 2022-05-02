@@ -1,6 +1,6 @@
 # Frontend Mentor - Intro section with dropdown navigation
 
-[Snap website]("https://fascinating-kheer-b7d1e3.netlify.app/")
+(https://fascinating-kheer-b7d1e3.netlify.app/ "Snap website")
 
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 
