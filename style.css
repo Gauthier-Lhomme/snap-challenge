@@ -67,14 +67,11 @@ body {
   pointer-events: none;
   transform: translateY(-10px);
   transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-  width: 150;
-  
 }
 
 .dropdown.active > .link + .dropdown-menu {
   opacity: 1;
   transform: translateY(0);
-  pointer-events: auto;
 }
 
 .nav-user {
@@ -461,7 +458,7 @@ p{
 }
 
 .learn-more-button{
-  border: 1px solid black;
+  border: 1px solid;
   background-color: black;
   color: white;
   padding: 2vh 5vh 2vh 5vh;
