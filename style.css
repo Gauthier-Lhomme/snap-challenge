@@ -196,7 +196,6 @@ h1{
 
 
 .burger-menu{
-    background: #333;
     height: 100vh;
     width: 100%;
 
@@ -424,7 +423,61 @@ border-radius: 10px;
   content: url("./images/icon-arrow-up.svg");
 }
 
+.desktop-version{
+  display: none;
+}
+
+.logo-mobile{
+  padding-top: 3vh;
+  padding-left: 2vh;
+}
+
+.img-mobile{
+  width: 100%;
+  padding-top: 4vh;
+}
 
 
+h1{
+  color: black;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+
+}
+
+p{
+  text-align: center;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-bottom: 6vh;
+  line-height: 1.5;
+}
+
+.learn-more-button{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 2vh 5vh 2vh 5vh;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 13px;
+  margin-left: 12vh;
+
+}
+
+.client-logo{
+  display: flex;
+  list-style: none;
+  padding-top: 8vh;
+  height: 2vh;
+  width: 2vw;
+}
+ .client-logo>li>img{
+  padding-left: 2vh;
+   width: 20vw;
+ }
 
 }
